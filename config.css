@@ -1,0 +1,77 @@
+.fave-num-text{
+	font-size: 1.4em;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	width:40px;
+	text-align: center;
+}
+.fave-input{
+	width: 700px;
+	height: 25px;
+	font-size:1.3em;
+	border: 2px dashed #e8e8e8;
+	height: 45px;
+	margin: 3px 0px;
+	padding-left: 10px;
+}
+#save-faves{
+	height: 40px;
+	width: 100px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 1.2em;
+	margin:0px 0px 10px 40px;
+	border-radius: 0px;
+	background-color: #fff;
+	color:#000;
+	border: 2px solid #222;
+}
+#add-new-btn{
+	height: 45px; width:45px;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: top;
+	margin-top:3px;
+	font-size: 60px;
+	line-height:28px;
+	cursor: pointer;
+	padding: 0 0 10px 0;
+	font-weight: 300;
+	border-radius: 0px;
+	text-align: center;
+	background-color: #fff;
+	color:#222;
+	border: 2px solid #222;
+}p{
+	margin: 10px 0 5px 0;
+}
+header>div.container{
+	background-color:#222;
+	height:80px;
+	color:#fff;
+}
+div.container>h1{
+	line-height: 40px;
+}
+div.container>h3{
+	font-weight: 400;
+	color: #555;
+	padding: 30px 0 10px 0;
+	font-size: 20px;
+}
+div.container>h2{
+	color:white;
+	font-size: 20px;
+}
+.container{
+	box-shadow: 0px 0px 3px  #2220;
+	border:2px solid black;
+	color: #555;
+}
+.body-cont{
+	padding-bottom: 40px;
+	min-height:92.4vh;
+}
+#saved-text{
+	padding-left: 10px;
+	color:red;
+}

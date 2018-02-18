@@ -1,0 +1,17 @@
+{
+  "name": "Bunch O' Tabs",
+  "description": "Open a bunch of tabs",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["popup.js","jquery-3.3.1.min.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Open my tabs!",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
